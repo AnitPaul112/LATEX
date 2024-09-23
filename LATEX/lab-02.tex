@@ -1,0 +1,73 @@
+
+\documentclass[a4paper,12pt]{report}
+\setcounter{chapter}{1}
+\usepackage{color}
+\begin{document}
+\title{My First Document}
+\addcontentsline{toc}{chapter}{Practical 1: Document Structure}
+
+\addcontentsline{toc}{chapter}{Practical 2: Typesetting Text}
+
+\author{Anit}
+\date{\today}
+\maketitle
+
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\chapter*{Practical 1: Document Structure}
+\section{color and italic}
+\textit{\color{red}This is the introduction.}
+
+\section{BOLD}
+
+\subsection{Stage 1}
+\label{sec1}
+\textbf{The first part of the methods}
+
+\subsection{Underline}
+\underline{The second part of the methods.}
+
+\section{Color}
+{\color{blue}Here are my results. Referring to section \ref{sec1} on page \pageref{sec1}}
+\chapter*{Practical 2: Typesetting Text}
+\section{Font Size}
+
+{\tiny Anit Paul}
+
+{\scriptsize Anit Paul}
+
+{\footnotesize Anit Paul}
+
+{\small Anit Paul}
+
+{\normalsize Anit Paul}
+
+{\large Anit Paul}
+
+{\LARGE Anit Paul}
+
+{\huge Anit Paul}
+
+\section{LIST}
+
+\begin{enumerate}
+\item First thing
+\item Second thing
+\begin{itemize}
+\item A sub-thing
+\item Another sub-thing
+\end{itemize}
+\item Third thing
+\end{enumerate}
+\section{Comments and Spacing}
+Believe that life is worth living% Note comic irony in the very first sentence , and your belief will help create the fact.
+
+\section{special Character}
+\# \$ \% \^{} \& \_ \{ \} \~{}
+
+
+\end{document}
+
+
